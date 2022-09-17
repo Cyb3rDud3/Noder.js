@@ -1,0 +1,23 @@
+{
+  "name": "noder.js",
+  "version": "0.0.1",
+  "type" : "module",
+  "description": "Bakaba Noder Javascript Promises Doker",
+  "main": "Noder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyb3rDud3/Noder.js.git"
+  },
+  "keywords": [
+    "Noder"
+  ],
+  "author": "Cyb3rDud3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyb3rDud3/Noder.js/issues"
+  },
+  "homepage": "https://github.com/Cyb3rDud3/Noder.js#readme"
+}
