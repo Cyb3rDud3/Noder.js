@@ -7,6 +7,8 @@
 Every Noder Object behave JUST like typical Promise, but it accepts a second argument which indicates the Neder Level. 
 the Neder level can be explained as "how to behave when this neder הופר.
 
+***Feel *free**** to contribute as I coded this thing totally drunk at 4AM after going back from a party (drunk ideas are the best, **Star this repo if you think like that!**)
+
 ***Neder Levels:***
 
  - NEDER.be_ima_sheli -> will trigger console.log
