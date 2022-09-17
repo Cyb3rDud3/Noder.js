@@ -1,3 +1,6 @@
+import {userInfo} from 'os';
+import {exec} from 'child_process';
+
 export const NEDER = {
    be_ima_sheli: () => { console.log("be_ima_sheli: \n Neder הופר") },
    be_saba_ve_savta: () => { console.warn("be_saba_ve_savta: \n Neder הופר") },
@@ -10,12 +13,12 @@ export const NEDER = {
    ba_kadosh_bar_ouh_ho: () => {
       let msg = "ba_kadosh_bar_ouh_ho: Neder הופר"
 
-      if (typeof window === 'undefined') {
-         let user = require("os").userInfo().username
-         return require('child_process').exec(`msg ${user} ${msg}`)
+         
+         let user = userInfo().username
+         return exec(`msg ${user} ${msg}`)
 
-      }
-      alert(msg)
+      
+      
 
    }
 }
@@ -29,7 +32,7 @@ const AIA_NAPA_STATE = {
 function isNederThenable(Neder) {
    return Neder instanceof Noder;
 }
-export default class Noder {
+export class Noder {
    constructor(nederCallback, ramat_neder) {
       this.aiaNapa = AIA_NAPA_STATE.PENDING;
       this.subaroPesha = undefined;
