@@ -14,7 +14,7 @@ the Neder level can be explained as "how to behave when this neder הופר.
  - NEDER.be_sefer_tora -> will trigger console.error
  - NEDER.ba_or_she_ani_roae -> will throw an Error
  - NEDER.ba_kadosh_bar_ouh_ho -> Will popup a msgbox (on windows only) 
- - 
+ 
 
 		
 
